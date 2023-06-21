@@ -83,7 +83,7 @@ var special = confirm("Do you want to include special characters?");
       alert("Password is valid.");
     }
   }
-  return "Generated password goes here";
+  return passwordText;
 }
 
 // Write password to the #password input
